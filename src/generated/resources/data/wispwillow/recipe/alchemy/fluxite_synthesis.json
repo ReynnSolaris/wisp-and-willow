@@ -1,0 +1,23 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_input": {
+    "amount": 1000,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "fluxia": 2400,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "wispwillow:fluxia_condensed_dust"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "wispwillow:fluxite"
+  },
+  "ticks": 240
+}

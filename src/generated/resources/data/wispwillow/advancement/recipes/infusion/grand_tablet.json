@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_greater_fluxia_tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:greater_fluxia_tablet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:infusion/grand_tablet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_greater_fluxia_tablet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:infusion/grand_tablet"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "wispwillow:astralite_ingot"
+    },
+    "f": {
+      "item": "wispwillow:fluxite"
+    }
+  },
+  "pattern": [
+    "a a",
+    "f f",
+    "faf"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:alchemical_cauldron"
+  }
+}

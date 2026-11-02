@@ -1,0 +1,6 @@
+{
+  "type": "wispwillow:gateway",
+  "id": "wispwillow:gateway/allay",
+  "soul": "minecraft:allay",
+  "summons": "wispwillow:wisp_familiar"
+}

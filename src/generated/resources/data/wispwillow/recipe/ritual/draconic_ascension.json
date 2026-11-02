@@ -1,0 +1,326 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 2000,
+  "grid": "12x12",
+  "id": "wispwillow:ritual/draconic_ascension",
+  "inputs": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "min_tier": 5,
+  "pattern": [
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": -5,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 5,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": 5,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": -5,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": 5,
+      "dz": -5,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": 5,
+      "dz": 5,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": -5,
+      "dz": 5,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": -5,
+      "dz": -5,
+      "required": true
+    },
+    {
+      "dx": 4,
+      "dz": -4,
+      "required": false
+    },
+    {
+      "dx": 4,
+      "dz": 4,
+      "required": false
+    },
+    {
+      "dx": -4,
+      "dz": 4,
+      "required": false
+    },
+    {
+      "dx": -4,
+      "dz": -4,
+      "required": false
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "dx": 0,
+      "dz": -2,
+      "required": false
+    },
+    {
+      "dx": 2,
+      "dz": 0,
+      "required": false
+    },
+    {
+      "dx": 0,
+      "dz": 2,
+      "required": false
+    },
+    {
+      "dx": -2,
+      "dz": 0,
+      "required": false
+    },
+    {
+      "type": "base",
+      "color": "purple",
+      "dx": 0,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "purple",
+      "dx": 1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "purple",
+      "dx": 0,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "purple",
+      "dx": -1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "pink",
+      "dx": 1,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "pink",
+      "dx": 1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "pink",
+      "dx": -1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "pink",
+      "dx": -1,
+      "dz": -1,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 1,
+    "id": "minecraft:dragon_egg"
+  },
+  "result_mob_count": 1
+}

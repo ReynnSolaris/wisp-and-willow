@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "chalk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:chalk_white"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chalk_dye_purple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:chalk_purple"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "chalk",
+      "chalk_dye_purple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:chalk_purple"
+    ]
+  }
+}

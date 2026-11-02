@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "i": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "wispwillow:amethyst_coal"
+    }
+  },
+  "pattern": [
+    "   ",
+    " x ",
+    " i "
+  ],
+  "result": {
+    "count": 4,
+    "id": "wispwillow:willow_torch"
+  }
+}

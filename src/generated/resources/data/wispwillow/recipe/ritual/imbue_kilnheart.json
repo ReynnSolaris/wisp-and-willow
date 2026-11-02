@@ -1,0 +1,146 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 3000,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/imbue_kilnheart",
+  "imbues": "kilnheart",
+  "inputs": [
+    {
+      "item": "minecraft:blast_furnace"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "min_tier": 4,
+  "pattern": [
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "orange",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "orange",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "orange",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "orange",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": 0,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": 2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": 0,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": -2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "brown",
+      "dx": 2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "brown",
+      "dx": 2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "brown",
+      "dx": -2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "brown",
+      "dx": -2,
+      "dz": -2,
+      "required": true
+    }
+  ],
+  "result_mob_count": 1
+}

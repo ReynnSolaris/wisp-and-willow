@@ -1,0 +1,46 @@
+{
+  "type": "wispwillow:fen_floor",
+  "config": {
+    "chance": 0.85,
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 9,
+      "min_inclusive": 4
+    },
+    "top": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "wispwillow:peat"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:mud"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:coarse_dirt"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:moss_block"
+          },
+          "weight": 2
+        }
+      ]
+    },
+    "under": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:peat"
+      }
+    }
+  }
+}

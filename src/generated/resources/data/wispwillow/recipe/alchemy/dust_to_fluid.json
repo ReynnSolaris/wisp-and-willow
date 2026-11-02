@@ -1,0 +1,15 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_result": {
+    "amount": 1000,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "fluxia": 2000,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "wispwillow:fluxia_condensed_dust"
+    }
+  ],
+  "ticks": 200
+}

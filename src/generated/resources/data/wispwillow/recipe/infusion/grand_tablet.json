@@ -1,0 +1,20 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 40000,
+  "id": "wispwillow:infusion/grand_tablet",
+  "inputs": [
+    {
+      "item": "wispwillow:greater_fluxia_tablet"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "wispwillow:astralite_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:grand_fluxia_tablet"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "wispwillow:gateway",
+  "id": "wispwillow:gateway/frog",
+  "soul": "minecraft:frog",
+  "summons": "wispwillow:frog_familiar"
+}

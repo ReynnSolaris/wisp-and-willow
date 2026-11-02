@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chalk_white": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:chalk_white"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:ritual/omni_chalk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chalk_white"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:ritual/omni_chalk"
+    ]
+  }
+}

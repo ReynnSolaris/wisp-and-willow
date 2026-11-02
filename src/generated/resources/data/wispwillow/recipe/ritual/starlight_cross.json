@@ -1,0 +1,47 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 1500,
+  "grid": "6x6",
+  "id": "wispwillow:ritual/starlight_cross",
+  "inputs": [
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "min_tier": 3,
+  "pattern": [
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": 0,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": 3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": 0,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": -3,
+      "dz": 0,
+      "required": true
+    }
+  ],
+  "result_mob": "minecraft:allay",
+  "result_mob_count": 1
+}

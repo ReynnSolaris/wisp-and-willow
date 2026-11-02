@@ -1,0 +1,45 @@
+{
+  "type": "wispwillow:spirit_ruin",
+  "config": {
+    "accent": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:moss_block"
+      }
+    },
+    "broken_chance": 0.25,
+    "crown": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:veilcap"
+      }
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 9,
+      "min_inclusive": 5
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 10,
+      "min_inclusive": 7
+    },
+    "stone": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "wispwillow:spiritstone_bricks"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "wispwillow:spiritstone"
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

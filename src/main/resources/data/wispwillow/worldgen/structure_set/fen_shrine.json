@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wispwillow:fen_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 6,
+    "salt": 1804411521
+  }
+}

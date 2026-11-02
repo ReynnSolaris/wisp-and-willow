@@ -1,0 +1,6 @@
+{
+  "type": "wispwillow:fluxia_oasis",
+  "biomes": "#wispwillow:has_structure/fluxia_oasis",
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

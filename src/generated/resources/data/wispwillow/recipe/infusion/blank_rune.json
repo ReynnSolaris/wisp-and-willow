@@ -1,0 +1,17 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 1000,
+  "id": "wispwillow:infusion/blank_rune",
+  "inputs": [
+    {
+      "item": "wispwillow:fluxite"
+    },
+    {
+      "item": "wispwillow:astralite_nugget"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:blank_rune"
+  }
+}

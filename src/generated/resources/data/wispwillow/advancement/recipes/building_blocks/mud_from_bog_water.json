@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bog_water": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:bog_water_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:mud_from_bog_water"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bog_water"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:mud_from_bog_water"
+    ]
+  }
+}

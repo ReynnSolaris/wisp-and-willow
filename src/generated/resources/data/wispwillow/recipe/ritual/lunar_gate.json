@@ -1,0 +1,78 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 350,
+  "grid": "6x6",
+  "id": "wispwillow:ritual/lunar_gate",
+  "inputs": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "min_tier": 3,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "magenta",
+      "dx": 0,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "magenta",
+      "dx": 3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "magenta",
+      "dx": 0,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "magenta",
+      "dx": -3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -2,
+      "dz": -2,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 3,
+    "id": "minecraft:ender_eye"
+  },
+  "result_mob_count": 1
+}

@@ -1,0 +1,910 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 3000,
+  "grid": "18x18",
+  "id": "wispwillow:ritual/shrouded_conclave",
+  "inputs": [
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "min_tier": 5,
+  "pattern": [
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": -8,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": -7,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": -5,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": -8,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": 5,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -8,
+      "dz": 7,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": -8,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -7,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -7,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -6,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -6,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -5,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -5,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -4,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -4,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -3,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -3,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -2,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -2,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -1,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -1,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 1,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 1,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 2,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 2,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 3,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 3,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 4,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 4,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 5,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 5,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 6,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 6,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 7,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 7,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": 8,
+      "dz": -8,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": -7,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": -5,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 8,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": 5,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 8,
+      "dz": 7,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": 8,
+      "dz": 8,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -6,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -6,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -6,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -6,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -6,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -6,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -6,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -4,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -4,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -2,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": -2,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 2,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 2,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 4,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 4,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 6,
+      "dz": -6,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 6,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 6,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 6,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 6,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "purple",
+      "dx": 6,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 6,
+      "dz": 6,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -4,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -4,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -2,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -2,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 2,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 2,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 4,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 4,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": -2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 1,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": 1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "magenta",
+      "dx": -1,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -1,
+      "dz": 0,
+      "required": true
+    }
+  ],
+  "result_mob": "minecraft:wither",
+  "result_mob_count": 3
+}

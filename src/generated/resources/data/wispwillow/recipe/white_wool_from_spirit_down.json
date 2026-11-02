@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "d": {
+      "item": "wispwillow:spirit_down"
+    }
+  },
+  "pattern": [
+    "dd",
+    "dd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:white_wool"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "wispwillow:oasis",
+  "criteria": {
+    "opened": {
+      "conditions": {
+        "loot_table": "wispwillow:fluxia_oasis_cache"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.oasis_cache.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.oasis_cache.title"
+    }
+  },
+  "requirements": [
+    [
+      "opened"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

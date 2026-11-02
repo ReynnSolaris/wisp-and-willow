@@ -1,0 +1,37 @@
+{
+  "parent": "wispwillow:altar",
+  "criteria": {
+    "craft_tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:fluxia_tablet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.tablet.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:fluxia_tablet"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.tablet.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_tablet"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

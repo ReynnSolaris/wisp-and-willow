@@ -1,0 +1,79 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 300,
+  "grid": "6x6",
+  "id": "wispwillow:ritual/crystallized_fertilization",
+  "inputs": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "min_tier": 2,
+  "pattern": [
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": 0,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": 0,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": -1,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "light_blue",
+      "dx": 1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "magenta",
+      "dx": 3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "magenta",
+      "dx": -3,
+      "dz": 0,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 4,
+    "id": "wispwillow:amethyst_farmland"
+  },
+  "result_mob_count": 1
+}

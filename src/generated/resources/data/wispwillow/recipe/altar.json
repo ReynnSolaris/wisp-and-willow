@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "o": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "x": {
+      "item": "wispwillow:willow_planks"
+    }
+  },
+  "pattern": [
+    " o ",
+    "oxo",
+    "xxx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:altar"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 3000,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/imbue_tether",
+  "imbues": "tether",
+  "inputs": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:lead"
+    },
+    {
+      "item": "minecraft:lead"
+    }
+  ],
+  "min_tier": 4,
+  "pattern": [
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "magenta",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "magenta",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "magenta",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "magenta",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "purple",
+      "dx": 0,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "purple",
+      "dx": 2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "purple",
+      "dx": 0,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "purple",
+      "dx": -2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "pink",
+      "dx": 2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "pink",
+      "dx": 2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "pink",
+      "dx": -2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "pink",
+      "dx": -2,
+      "dz": -2,
+      "required": true
+    }
+  ],
+  "result_mob_count": 1
+}

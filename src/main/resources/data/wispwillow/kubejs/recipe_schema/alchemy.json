@@ -1,0 +1,81 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "role": "output",
+      "type": "item_stack",
+      "default_optional": true
+    },
+    {
+      "name": "ingredients",
+      "role": "input",
+      "type": {
+        "type": "list",
+        "component": "flat_sized_ingredient"
+      },
+      "default_optional": true
+    },
+    {
+      "name": "fluid_input",
+      "role": "input",
+      "type": "fluid_stack",
+      "default_optional": true
+    },
+    {
+      "name": "fluid_result",
+      "role": "output",
+      "type": "fluid_stack",
+      "default_optional": true
+    },
+    {
+      "name": "fluxia",
+      "type": "non_negative_int",
+      "optional": 0
+    },
+    {
+      "name": "ticks",
+      "type": "ticks",
+      "function_names": [
+        "ticks",
+        "time"
+      ],
+      "optional": 100
+    }
+  ],
+  "constructors": [
+    {
+      "keys": [
+        "result",
+        "ingredients"
+      ]
+    },
+    {
+      "keys": [
+        "result",
+        "ingredients",
+        "fluid_input"
+      ]
+    },
+    {
+      "keys": [
+        "result",
+        "ingredients",
+        "fluid_input",
+        "fluxia"
+      ]
+    },
+    {
+      "keys": [
+        "result",
+        "ingredients",
+        "fluid_input",
+        "fluxia",
+        "ticks"
+      ]
+    }
+  ],
+  "unique": [
+    "result",
+    "fluid_result"
+  ]
+}

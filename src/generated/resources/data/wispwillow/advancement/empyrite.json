@@ -1,0 +1,37 @@
+{
+  "parent": "wispwillow:cauldron",
+  "criteria": {
+    "has_empyrite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:empyrite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.empyrite.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:empyrite_ingot"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.empyrite.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_empyrite"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

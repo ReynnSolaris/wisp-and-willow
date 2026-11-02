@@ -1,0 +1,31 @@
+{
+  "values": [
+    "wispwillow:blank_rune",
+    "wispwillow:water_rune",
+    "wispwillow:earth_rune",
+    "wispwillow:blood_rune",
+    "wispwillow:spiritstone",
+    "wispwillow:spiritstone_bricks",
+    "wispwillow:alchemical_cauldron",
+    "wispwillow:empyrite_block",
+    "wispwillow:astralite_block",
+    "wispwillow:mana_pool",
+    "wispwillow:creative_mana_pool",
+    "wispwillow:fluxia_lamp",
+    "wispwillow:amethyst_coal_block",
+    "wispwillow:altar",
+    "wispwillow:fluxia_spitter",
+    "wispwillow:astralite_ore",
+    "wispwillow:deepslate_astralite_ore",
+    "wispwillow:warded_slate",
+    "wispwillow:fluxite",
+    "wispwillow:mossy_fenstone",
+    "wispwillow:fenstone_pillar",
+    "wispwillow:fenstone",
+    "wispwillow:fenstone_bricks",
+    "wispwillow:mossy_fenstone_bricks",
+    "wispwillow:fenstone_brick_stairs",
+    "wispwillow:fenstone_brick_slab",
+    "wispwillow:fenstone_brick_wall"
+  ]
+}

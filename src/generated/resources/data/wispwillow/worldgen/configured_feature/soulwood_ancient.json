@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "wispwillow:willow_vines",
+        "probability": 0.18
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "wispwillow:soulwood_foliage",
+      "height": 3,
+      "hole_chance": 0.08,
+      "offset": 0,
+      "radius": 4,
+      "wisp_chance": 0.5,
+      "wisp_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 4,
+        "min_inclusive": 2
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:soulwood_leaves",
+        "Properties": {
+          "distance": "14",
+          "persistent": "true",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 2,
+      "lower_size": 1,
+      "upper_size": 4
+    },
+    "trunk_placer": {
+      "type": "wispwillow:soulwood_trunk",
+      "base_height": 11,
+      "bend_chance": 0.2,
+      "fork_chance": 0.65,
+      "height_rand_a": 3,
+      "height_rand_b": 3,
+      "thick": true
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:soulwood_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

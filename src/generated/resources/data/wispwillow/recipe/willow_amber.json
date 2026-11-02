@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "s": {
+      "item": "wispwillow:willow_sap_bottle"
+    }
+  },
+  "pattern": [
+    "ss",
+    "ss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:willow_amber"
+  }
+}

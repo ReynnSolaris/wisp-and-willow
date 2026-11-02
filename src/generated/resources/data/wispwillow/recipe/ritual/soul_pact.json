@@ -1,0 +1,121 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 500,
+  "grid": "6x6",
+  "id": "wispwillow:ritual/soul_pact",
+  "inputs": [
+    {
+      "item": "wispwillow:amethyst_paper"
+    },
+    {
+      "item": "wispwillow:amethyst_paper"
+    },
+    {
+      "item": "wispwillow:amethyst_paper"
+    },
+    {
+      "item": "wispwillow:amethyst_paper"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "min_tier": 2,
+  "pattern": [
+    {
+      "type": "runes",
+      "color": "purple",
+      "dx": 0,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "purple",
+      "dx": 3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "purple",
+      "dx": 0,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "purple",
+      "dx": -3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": 2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": 2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": -2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": -2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 0,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 0,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": -1,
+      "dz": 0,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 4,
+    "id": "wispwillow:soul_pact"
+  },
+  "result_mob_count": 1
+}

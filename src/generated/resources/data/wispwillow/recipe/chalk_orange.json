@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "wispwillow:chalk_white"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:chalk_orange"
+  }
+}

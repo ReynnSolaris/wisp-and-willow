@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "wispwillow:willow_vines",
+        "probability": 0.07
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "wispwillow:weeping_foliage",
+      "height": 0,
+      "offset": 0,
+      "radius": 3,
+      "strand_chance": 0.4,
+      "strand_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 6,
+        "min_inclusive": 3
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "wispwillow:willow_leaves",
+            "Properties": {
+              "distance": "14",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "wispwillow:flowering_willow_leaves",
+            "Properties": {
+              "distance": "14",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:three_layers_feature_size",
+      "limit": 1,
+      "lower_size": 1,
+      "middle_size": 2,
+      "upper_limit": 1,
+      "upper_size": 3
+    },
+    "trunk_placer": {
+      "type": "wispwillow:weeping_willow_trunk",
+      "base_height": 5,
+      "branch_count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 4,
+        "min_inclusive": 2
+      },
+      "branch_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 5,
+        "min_inclusive": 3
+      },
+      "height_rand_a": 2,
+      "height_rand_b": 2
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:willow_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

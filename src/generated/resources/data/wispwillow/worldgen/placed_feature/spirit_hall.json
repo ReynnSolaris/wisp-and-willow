@@ -1,0 +1,25 @@
+{
+  "feature": "wispwillow:spirit_hall",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 110
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "wispwillow:spaced",
+      "block": "wispwillow:spiritstone_bricks",
+      "height": 10,
+      "radius": 16
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

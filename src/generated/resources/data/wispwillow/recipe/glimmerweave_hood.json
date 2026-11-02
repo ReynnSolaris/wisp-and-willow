@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "g": {
+      "item": "wispwillow:glimmerweave"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "g g",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:glimmerweave_hood"
+  }
+}

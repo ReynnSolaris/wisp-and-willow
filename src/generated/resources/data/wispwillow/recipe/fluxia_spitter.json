@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "o": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "t": {
+      "item": "wispwillow:fluxia_tablet"
+    },
+    "x": {
+      "item": "wispwillow:fluxite"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xot",
+    "xxx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:fluxia_spitter"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_block"
+    },
+    "d": {
+      "item": "minecraft:nether_star"
+    },
+    "o": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "s": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "ada",
+    "asa",
+    "aoa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:chunk_loader"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "wispwillow:spirit_floor",
+  "config": {
+    "chance": 0.35,
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 6,
+      "min_inclusive": 3
+    },
+    "top": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:coarse_dirt"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:moss_block"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "under": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    }
+  }
+}

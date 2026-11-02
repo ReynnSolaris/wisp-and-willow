@@ -1,0 +1,37 @@
+{
+  "parent": "wispwillow:first_steps",
+  "criteria": {
+    "craft_altar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:altar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.altar.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:altar"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.altar.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_altar"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

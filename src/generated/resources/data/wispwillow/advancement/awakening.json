@@ -1,0 +1,33 @@
+{
+  "parent": "wispwillow:empyrite",
+  "criteria": {
+    "rite": {
+      "conditions": {
+        "milestone": "awakened"
+      },
+      "trigger": "wispwillow:milestone"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.awakening.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:empyrite_sword"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.awakening.title"
+    }
+  },
+  "requirements": [
+    [
+      "rite"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

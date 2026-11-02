@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wispwillow:fen/sunken_ruin",
+        "processors": "wispwillow:fen_ruin_decay",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

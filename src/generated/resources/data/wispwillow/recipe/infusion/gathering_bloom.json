@@ -1,0 +1,20 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 6000,
+  "id": "wispwillow:infusion/gathering_bloom",
+  "inputs": [
+    {
+      "item": "wispwillow:willow_sapling"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:gathering_bloom"
+  }
+}

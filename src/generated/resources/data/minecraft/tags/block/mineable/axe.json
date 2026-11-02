@@ -1,0 +1,26 @@
+{
+  "values": [
+    "wispwillow:willow_planks",
+    "wispwillow:willow_stairs",
+    "wispwillow:willow_fence",
+    "wispwillow:willow_pressure_plate",
+    "wispwillow:willow_button",
+    "wispwillow:willow_log",
+    "wispwillow:willow_slab",
+    "wispwillow:stripped_willow_log",
+    "wispwillow:willow_fence_gate",
+    "wispwillow:willow_trapdoor",
+    "wispwillow:willow_door",
+    "wispwillow:soulwood_log",
+    "wispwillow:stripped_soulwood_log",
+    "wispwillow:soulwood_planks",
+    "wispwillow:soulwood_stairs",
+    "wispwillow:soulwood_slab",
+    "wispwillow:soulwood_fence",
+    "wispwillow:soulwood_fence_gate",
+    "wispwillow:soulwood_door",
+    "wispwillow:soulwood_trapdoor",
+    "wispwillow:soulwood_button",
+    "wispwillow:soulwood_pressure_plate"
+  ]
+}

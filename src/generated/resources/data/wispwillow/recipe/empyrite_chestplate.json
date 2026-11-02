@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "e": {
+      "item": "wispwillow:empyrite_ingot"
+    }
+  },
+  "pattern": [
+    "e e",
+    "eee",
+    "eee"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:empyrite_chestplate"
+  }
+}

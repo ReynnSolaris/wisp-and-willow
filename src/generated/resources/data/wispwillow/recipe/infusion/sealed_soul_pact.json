@@ -1,0 +1,23 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 25000,
+  "id": "wispwillow:infusion/sealed_soul_pact",
+  "inputs": [
+    {
+      "item": "wispwillow:bound_soul_pact"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "wispwillow:astralite_ingot"
+    },
+    {
+      "item": "wispwillow:astralite_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:sealed_soul_pact"
+  }
+}

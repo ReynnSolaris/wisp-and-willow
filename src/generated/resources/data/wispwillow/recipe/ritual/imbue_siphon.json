@@ -1,0 +1,167 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 3500,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/imbue_siphon",
+  "imbues": "siphon",
+  "inputs": [
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "min_tier": 4,
+  "pattern": [
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "purple",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": 0,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": 2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": 0,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "red",
+      "dx": -2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "black",
+      "dx": 2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "black",
+      "dx": 2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "black",
+      "dx": -2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "black",
+      "dx": -2,
+      "dz": -2,
+      "required": true
+    }
+  ],
+  "result_mob_count": 1
+}

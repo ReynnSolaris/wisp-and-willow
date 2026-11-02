@@ -1,0 +1,27 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_input": {
+    "amount": 3000,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "fluxia": 16000,
+  "ingredients": [
+    {
+      "count": 4,
+      "item": "wispwillow:astralite_ingot"
+    },
+    {
+      "count": 1,
+      "item": "wispwillow:fluxia_condensed_dust"
+    },
+    {
+      "count": 2,
+      "item": "wispwillow:amethyst_coal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:empyrite_ingot"
+  },
+  "ticks": 800
+}

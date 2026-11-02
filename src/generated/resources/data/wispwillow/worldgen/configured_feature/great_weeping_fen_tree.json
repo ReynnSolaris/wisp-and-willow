@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "wispwillow:fen_drape",
+        "length": {
+          "type": "minecraft:uniform",
+          "max_inclusive": 5,
+          "min_inclusive": 2
+        },
+        "probability": 0.15
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "wispwillow:weeping_foliage",
+      "height": 1,
+      "offset": 0,
+      "radius": 4,
+      "strand_chance": 0.5,
+      "strand_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 9,
+        "min_inclusive": 5
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:weeping_leaves",
+        "Properties": {
+          "distance": "14",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:three_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "middle_size": 1,
+      "upper_limit": 1,
+      "upper_size": 2
+    },
+    "trunk_placer": {
+      "type": "wispwillow:weeping_willow_trunk",
+      "base_height": 6,
+      "branch_count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 7,
+        "min_inclusive": 5
+      },
+      "branch_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 6,
+        "min_inclusive": 4
+      },
+      "height_rand_a": 3,
+      "height_rand_b": 2
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

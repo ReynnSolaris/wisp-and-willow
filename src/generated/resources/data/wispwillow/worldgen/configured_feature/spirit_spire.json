@@ -1,0 +1,67 @@
+{
+  "type": "wispwillow:spirit_spire",
+  "config": {
+    "band": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:spiritstone_bricks"
+      }
+    },
+    "crown": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "wispwillow:wispcap"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "wispwillow:glimmerbloom"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "wispwillow:veilcap"
+          },
+          "weight": 2
+        }
+      ]
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 19,
+      "min_inclusive": 7
+    },
+    "moss": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:moss_carpet"
+      }
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 2,
+      "min_inclusive": 1
+    },
+    "stone": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "wispwillow:spiritstone"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "Name": "wispwillow:spiritstone_bricks"
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

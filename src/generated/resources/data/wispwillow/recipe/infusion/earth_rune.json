@@ -1,0 +1,17 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 2500,
+  "id": "wispwillow:infusion/earth_rune",
+  "inputs": [
+    {
+      "item": "wispwillow:blank_rune"
+    },
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:earth_rune"
+  }
+}

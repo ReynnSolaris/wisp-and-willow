@@ -1,0 +1,108 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 1500,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/vigil_clear_skies",
+  "inputs": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "min_tier": 2,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "light_blue",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_blue",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_blue",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_blue",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": -3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": -3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "dx": 0,
+      "dz": -2,
+      "required": false
+    },
+    {
+      "dx": 2,
+      "dz": 0,
+      "required": false
+    },
+    {
+      "dx": 0,
+      "dz": 2,
+      "required": false
+    },
+    {
+      "dx": -2,
+      "dz": 0,
+      "required": false
+    }
+  ],
+  "result_mob_count": 1,
+  "vigil": {
+    "duration_ticks": 24000,
+    "effect": "clear_skies",
+    "upkeep_per_second": 24
+  }
+}

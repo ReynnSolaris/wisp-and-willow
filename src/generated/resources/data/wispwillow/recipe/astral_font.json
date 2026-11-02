@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "wispwillow:astralite_ingot"
+    },
+    "f": {
+      "item": "wispwillow:fluxite"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "a a",
+    "aga",
+    "fff"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:astral_font"
+  }
+}

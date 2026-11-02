@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_moonlily": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:moonlily"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:white_dye_from_moonlily"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_moonlily"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:white_dye_from_moonlily"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_input": {
+    "amount": 250,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "wispwillow:amethyst_sugar_cane"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "wispwillow:amethyst_paper"
+  },
+  "ticks": 80
+}

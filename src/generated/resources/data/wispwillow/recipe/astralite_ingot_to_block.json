@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "n": {
+      "item": "wispwillow:astralite_ingot"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:astralite_block"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sealed_pact": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:sealed_soul_pact"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:gateway/frog"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sealed_pact"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:gateway/frog"
+    ]
+  }
+}

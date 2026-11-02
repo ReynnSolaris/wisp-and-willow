@@ -1,0 +1,108 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 2000,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/vigil_warding_light",
+  "inputs": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "min_tier": 3,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "yellow",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "yellow",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "yellow",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "yellow",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": 3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": 3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": -3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": -3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "dx": 0,
+      "dz": -2,
+      "required": false
+    },
+    {
+      "dx": 2,
+      "dz": 0,
+      "required": false
+    },
+    {
+      "dx": 0,
+      "dz": 2,
+      "required": false
+    },
+    {
+      "dx": -2,
+      "dz": 0,
+      "required": false
+    }
+  ],
+  "result_mob_count": 1,
+  "vigil": {
+    "duration_ticks": 24000,
+    "effect": "warding_light",
+    "upkeep_per_second": 20
+  }
+}

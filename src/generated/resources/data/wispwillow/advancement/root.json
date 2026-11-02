@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "spawn_in": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "background": "wispwillow:textures/gui/advancements/backgrounds/magical_stone.png",
+    "description": {
+      "translate": "advancements.wispwillow.root.description"
+    },
+    "icon": {
+      "components": {
+        "patchouli:book": "wispwillow:wispwillow_grimoire"
+      },
+      "count": 1,
+      "id": "patchouli:guide_book"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "spawn_in"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

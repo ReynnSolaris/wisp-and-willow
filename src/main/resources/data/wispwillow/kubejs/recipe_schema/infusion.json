@@ -1,0 +1,20 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "role": "output",
+      "type": "item_stack"
+    },
+    {
+      "name": "inputs",
+      "role": "input",
+      "type": { "type": "list", "component": "ingredient" }
+    },
+    {
+      "name": "fluxia",
+      "type": "non_negative_int",
+      "optional": 0
+    }
+  ],
+  "unique": ["result"]
+}

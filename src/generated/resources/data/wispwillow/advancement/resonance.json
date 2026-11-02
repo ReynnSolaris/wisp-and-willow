@@ -1,0 +1,33 @@
+{
+  "parent": "wispwillow:awakening",
+  "criteria": {
+    "resonant": {
+      "conditions": {
+        "milestone": "resonance_v"
+      },
+      "trigger": "wispwillow:milestone"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.resonance.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:empyrite_axe"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.resonance.title"
+    }
+  },
+  "requirements": [
+    [
+      "resonant"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

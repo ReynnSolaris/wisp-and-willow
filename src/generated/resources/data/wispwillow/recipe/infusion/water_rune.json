@@ -1,0 +1,17 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 2500,
+  "id": "wispwillow:infusion/water_rune",
+  "inputs": [
+    {
+      "item": "wispwillow:blank_rune"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:water_rune"
+  }
+}

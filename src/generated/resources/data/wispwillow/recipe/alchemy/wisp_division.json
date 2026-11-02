@@ -1,0 +1,23 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_input": {
+    "amount": 4000,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "fluxia": 12000,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "wispwillow:soul_wisp"
+    },
+    {
+      "count": 4,
+      "item": "wispwillow:astralite_ingot"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "wispwillow:soul_wisp"
+  },
+  "ticks": 600
+}

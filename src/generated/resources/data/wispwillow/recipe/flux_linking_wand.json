@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "n": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "nxn",
+    "  n"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:flux_linking_wand"
+  }
+}

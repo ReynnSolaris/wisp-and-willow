@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "wispwillow:spirit_down"
+    }
+  },
+  "pattern": [
+    "d",
+    "d",
+    "d"
+  ],
+  "result": {
+    "count": 2,
+    "id": "wispwillow:glimmer_thread"
+  }
+}

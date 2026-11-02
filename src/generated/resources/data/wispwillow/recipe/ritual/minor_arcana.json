@@ -1,0 +1,53 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 300,
+  "grid": "3x3",
+  "id": "wispwillow:ritual/minor_arcana",
+  "inputs": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "min_tier": 2,
+  "pattern": [
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": -1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "black",
+      "dx": 1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "black",
+      "dx": 0,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "black",
+      "dx": 0,
+      "dz": 1,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 18,
+    "id": "wispwillow:amethyst_coal"
+  },
+  "result_mob_count": 1
+}

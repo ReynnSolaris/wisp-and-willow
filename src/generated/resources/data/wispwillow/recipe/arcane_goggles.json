@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "wispwillow:astralite_ingot"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    },
+    "n": {
+      "item": "wispwillow:astralite_nugget"
+    },
+    "o": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "nan",
+    "gog",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:arcane_goggles"
+  }
+}

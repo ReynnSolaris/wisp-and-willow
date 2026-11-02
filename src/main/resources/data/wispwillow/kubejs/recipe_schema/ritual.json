@@ -1,0 +1,153 @@
+{
+  "keys": [
+    {
+      "name": "result_item",
+      "role": "output",
+      "type": "item_stack",
+      "default_optional": true
+    },
+    {
+      "name": "grid",
+      "type": "string"
+    },
+    {
+      "name": "pattern",
+      "type": {
+        "type": "list",
+        "component": {
+          "type": "custom_object",
+          "keys": [
+            {
+              "name": "dx",
+              "component": {
+                "type": "int"
+              }
+            },
+            {
+              "name": "dz",
+              "component": {
+                "type": "int"
+              }
+            },
+            {
+              "name": "type",
+              "component": "string",
+              "optional": true
+            },
+            {
+              "name": "color",
+              "component": "string",
+              "optional": true
+            },
+            {
+              "name": "required",
+              "component": "boolean",
+              "optional": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "inputs",
+      "role": "input",
+      "type": {
+        "type": "list",
+        "component": "ingredient"
+      },
+      "default_optional": true
+    },
+    {
+      "name": "result_mob",
+      "role": "output",
+      "type": {
+        "type": "registry_element",
+        "registry": "minecraft:entity_type"
+      },
+      "default_optional": true
+    },
+    {
+      "name": "result_mob_count",
+      "type": "positive_int",
+      "optional": 1
+    },
+    {
+      "name": "fluxia_required",
+      "type": "non_negative_int",
+      "function_names": [
+        "fluxia_required",
+        "fluxia"
+      ],
+      "default_optional": true
+    },
+    {
+      "name": "min_tier",
+      "type": "positive_int",
+      "optional": 1
+    },
+    {
+      "name": "awakens",
+      "type": "item_tag",
+      "default_optional": true
+    },
+    {
+      "name": "imbues",
+      "type": "string",
+      "default_optional": true
+    },
+    {
+      "name": "vigil",
+      "type": {
+        "type": "custom_object",
+        "keys": [
+          {
+            "name": "effect",
+            "component": "string"
+          },
+          {
+            "name": "duration_ticks",
+            "component": {
+              "type": "int",
+              "min": 1
+            }
+          },
+          {
+            "name": "upkeep_per_second",
+            "component": "non_negative_int"
+          }
+        ]
+      },
+      "default_optional": true
+    }
+  ],
+  "constructors": [
+    {
+      "keys": [
+        "result_item",
+        "grid",
+        "pattern"
+      ]
+    },
+    {
+      "keys": [
+        "result_item",
+        "grid",
+        "pattern",
+        "inputs"
+      ]
+    },
+    {
+      "keys": [
+        "result_item",
+        "grid",
+        "pattern",
+        "inputs",
+        "fluxia_required"
+      ]
+    }
+  ],
+  "unique": [
+    "result_item",
+    "result_mob"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "wispwillow:gateway",
+  "id": "wispwillow:gateway/axolotl",
+  "soul": "minecraft:axolotl",
+  "summons": "wispwillow:axolotl_familiar"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 5000,
+  "id": "wispwillow:infusion/primed_soul_pact",
+  "inputs": [
+    {
+      "item": "wispwillow:soul_pact"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:primed_soul_pact"
+  }
+}

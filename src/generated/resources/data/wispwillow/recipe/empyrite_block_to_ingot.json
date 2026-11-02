@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wispwillow:empyrite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "wispwillow:empyrite_ingot"
+  }
+}

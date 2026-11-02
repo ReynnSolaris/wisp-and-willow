@@ -1,0 +1,37 @@
+{
+  "type": "wispwillow:fallen_log",
+  "config": {
+    "decoration": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:moss_carpet"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "wispwillow:wispcap"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "decoration_chance": 0.5,
+    "length": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 6,
+      "min_inclusive": 3
+    },
+    "log": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

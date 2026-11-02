@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glimmerweave": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:glimmerweave"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:glimmerweave_hood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glimmerweave"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:glimmerweave_hood"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "wispwillow:weeping_fen_tree",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "wispwillow:great_weeping_fen_tree",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

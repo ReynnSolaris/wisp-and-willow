@@ -1,0 +1,120 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 1200,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/vigil_verdant_tide",
+  "inputs": [
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "min_tier": 2,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "brown",
+      "dx": 3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "brown",
+      "dx": 3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "brown",
+      "dx": -3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "brown",
+      "dx": -3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "dx": 0,
+      "dz": -2,
+      "required": false
+    },
+    {
+      "dx": 2,
+      "dz": 0,
+      "required": false
+    },
+    {
+      "dx": 0,
+      "dz": 2,
+      "required": false
+    },
+    {
+      "dx": -2,
+      "dz": 0,
+      "required": false
+    }
+  ],
+  "result_mob_count": 1,
+  "vigil": {
+    "duration_ticks": 30000,
+    "effect": "verdant_tide",
+    "upkeep_per_second": 16
+  }
+}

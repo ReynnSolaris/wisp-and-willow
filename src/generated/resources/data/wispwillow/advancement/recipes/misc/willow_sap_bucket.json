@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:willow_sap_bucket"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_willow_sap": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:willow_sap_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_willow_sap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:willow_sap_bucket"
+    ]
+  }
+}

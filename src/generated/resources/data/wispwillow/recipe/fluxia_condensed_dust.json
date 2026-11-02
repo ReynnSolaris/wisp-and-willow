@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "o": {
+      "item": "wispwillow:fluxia_converter_dust"
+    },
+    "x": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "xox",
+    "oxo",
+    "xox"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:fluxia_condensed_dust"
+  }
+}

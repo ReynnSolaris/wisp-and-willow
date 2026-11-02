@@ -1,0 +1,50 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 20,
+  "grid": "3x3",
+  "id": "wispwillow:ritual/minor_focus",
+  "inputs": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "min_tier": 1,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 0,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": 0,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "white",
+      "dx": -1,
+      "dz": 0,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 4,
+    "id": "minecraft:amethyst_shard"
+  },
+  "result_mob_count": 1
+}

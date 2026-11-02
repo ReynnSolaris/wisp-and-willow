@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dust_of_convert": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:fluxia_converter_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:dust_convert_charcoal_to_coal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dust_of_convert"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:dust_convert_charcoal_to_coal"
+    ]
+  }
+}

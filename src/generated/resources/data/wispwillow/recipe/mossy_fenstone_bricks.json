@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "wispwillow:fenstone_bricks"
+    },
+    [
+      {
+        "item": "minecraft:vine"
+      },
+      {
+        "item": "minecraft:moss_block"
+      },
+      {
+        "item": "wispwillow:fen_moss"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:mossy_fenstone_bricks"
+  }
+}

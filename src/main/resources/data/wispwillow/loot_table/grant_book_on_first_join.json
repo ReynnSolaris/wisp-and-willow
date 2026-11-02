@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "patchouli"
+    }
+  ],
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "patchouli:guide_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "patchouli:book": "wispwillow:wispwillow_grimoire"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

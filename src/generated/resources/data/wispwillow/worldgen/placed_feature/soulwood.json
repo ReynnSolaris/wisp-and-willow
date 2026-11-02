@@ -1,0 +1,25 @@
+{
+  "feature": "wispwillow:soulwood",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "wispwillow:spaced",
+      "block": "wispwillow:soulwood_log",
+      "height": 20,
+      "radius": 6
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

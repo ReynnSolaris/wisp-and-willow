@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "n": {
+      "item": "wispwillow:empyrite_ingot"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:empyrite_block"
+  }
+}

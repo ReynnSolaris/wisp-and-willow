@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_astralite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:deepslate_astralite_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:blast_deepslate_astralite_ore_to_astralite_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_astralite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:blast_deepslate_astralite_ore_to_astralite_ingot"
+    ]
+  }
+}

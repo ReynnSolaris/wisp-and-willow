@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "o": {
+      "item": "wispwillow:astralite_nugget"
+    },
+    "x": {
+      "item": "wispwillow:fluxite"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xox",
+    "xnx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:fluxia_tablet"
+  }
+}

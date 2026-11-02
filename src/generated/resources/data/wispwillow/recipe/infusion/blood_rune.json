@@ -1,0 +1,17 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 4000,
+  "id": "wispwillow:infusion/blood_rune",
+  "inputs": [
+    {
+      "item": "wispwillow:blank_rune"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:blood_rune"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 600,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/verdant_wilds",
+  "inputs": [
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:flowering_azalea"
+    }
+  ],
+  "min_tier": 3,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "lime",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "green",
+      "dx": 4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "green",
+      "dx": 4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "green",
+      "dx": -4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "green",
+      "dx": -4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "dx": 0,
+      "dz": -2,
+      "required": false
+    },
+    {
+      "dx": 2,
+      "dz": 0,
+      "required": false
+    },
+    {
+      "dx": 0,
+      "dz": 2,
+      "required": false
+    },
+    {
+      "dx": -2,
+      "dz": 0,
+      "required": false
+    }
+  ],
+  "result_mob": "minecraft:bee",
+  "result_mob_count": 3
+}

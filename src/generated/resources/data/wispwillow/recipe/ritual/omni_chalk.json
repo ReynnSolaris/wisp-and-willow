@@ -1,0 +1,176 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 5000,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/omni_chalk",
+  "inputs": [
+    {
+      "item": "wispwillow:chalk_white"
+    },
+    {
+      "item": "wispwillow:chalk_orange"
+    },
+    {
+      "item": "wispwillow:chalk_magenta"
+    },
+    {
+      "item": "wispwillow:chalk_light_blue"
+    },
+    {
+      "item": "wispwillow:chalk_yellow"
+    },
+    {
+      "item": "wispwillow:chalk_lime"
+    },
+    {
+      "item": "wispwillow:chalk_pink"
+    },
+    {
+      "item": "wispwillow:chalk_gray"
+    },
+    {
+      "item": "wispwillow:chalk_light_gray"
+    },
+    {
+      "item": "wispwillow:chalk_cyan"
+    },
+    {
+      "item": "wispwillow:chalk_purple"
+    },
+    {
+      "item": "wispwillow:chalk_blue"
+    },
+    {
+      "item": "wispwillow:chalk_brown"
+    },
+    {
+      "item": "wispwillow:chalk_green"
+    },
+    {
+      "item": "wispwillow:chalk_red"
+    },
+    {
+      "item": "wispwillow:chalk_black"
+    }
+  ],
+  "min_tier": 3,
+  "pattern": [
+    {
+      "type": "eclipse",
+      "color": "red",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "yellow",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "green",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "eclipse",
+      "color": "blue",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "orange",
+      "dx": 4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "lime",
+      "dx": 4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "cyan",
+      "dx": -4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "magenta",
+      "dx": -4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "pink",
+      "dx": 0,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "light_blue",
+      "dx": 3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "light_gray",
+      "dx": 0,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "hex",
+      "color": "purple",
+      "dx": -3,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "white",
+      "dx": 3,
+      "dz": -3,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "brown",
+      "dx": 3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "gray",
+      "dx": -3,
+      "dz": 3,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "black",
+      "dx": -3,
+      "dz": -3,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 1,
+    "id": "wispwillow:omni_chalk"
+  },
+  "result_mob_count": 1
+}

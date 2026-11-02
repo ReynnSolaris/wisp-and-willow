@@ -1,0 +1,50 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 120,
+  "grid": "3x3",
+  "id": "wispwillow:ritual/minor_binding",
+  "inputs": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "min_tier": 1,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 1,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": 1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "light_gray",
+      "dx": -1,
+      "dz": -1,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 12,
+    "id": "minecraft:glowstone_dust"
+  },
+  "result_mob_count": 1
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "wispwillow:astralite_ingot"
+    },
+    "r": {
+      "item": "wispwillow:blood_rune"
+    },
+    "s": {
+      "item": "minecraft:nether_star"
+    },
+    "w": {
+      "item": "wispwillow:willow_log"
+    }
+  },
+  "pattern": [
+    "awa",
+    "wsw",
+    "ara"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:gateway_core"
+  }
+}

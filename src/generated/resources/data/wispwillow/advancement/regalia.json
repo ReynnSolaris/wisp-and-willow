@@ -1,0 +1,33 @@
+{
+  "parent": "wispwillow:awakening",
+  "criteria": {
+    "worn": {
+      "conditions": {
+        "milestone": "regalia"
+      },
+      "trigger": "wispwillow:milestone"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.regalia.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:empyrite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.regalia.title"
+    }
+  },
+  "requirements": [
+    [
+      "worn"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "c": {
+      "item": "minecraft:cobblestone"
+    },
+    "p": {
+      "item": "wispwillow:peat"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "cpc",
+    "ccc"
+  ],
+  "result": {
+    "count": 8,
+    "id": "wispwillow:fenstone"
+  }
+}

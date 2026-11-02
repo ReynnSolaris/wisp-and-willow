@@ -1,0 +1,23 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_input": {
+    "amount": 500,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "fluxia": 1500,
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "wispwillow:astralite_ingot"
+    },
+    {
+      "count": 2,
+      "item": "wispwillow:fluxia_converter_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:upgrade_thrift"
+  },
+  "ticks": 200
+}

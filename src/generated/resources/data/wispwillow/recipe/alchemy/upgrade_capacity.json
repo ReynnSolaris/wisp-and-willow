@@ -1,0 +1,19 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluxia": 2000,
+  "ingredients": [
+    {
+      "count": 4,
+      "item": "wispwillow:fluxite"
+    },
+    {
+      "count": 1,
+      "item": "wispwillow:fluxia_condensed_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:upgrade_capacity"
+  },
+  "ticks": 220
+}

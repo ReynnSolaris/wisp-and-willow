@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fenstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:fenstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:fenstone_bricks_from_fenstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fenstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:fenstone_bricks_from_fenstone_stonecutting"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 250,
+  "grid": "3x3",
+  "id": "wispwillow:ritual/flame_bloom",
+  "inputs": [
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "min_tier": 2,
+  "pattern": [
+    {
+      "type": "base",
+      "color": "red",
+      "dx": 0,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "red",
+      "dx": 1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "red",
+      "dx": 0,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "red",
+      "dx": -1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "red",
+      "dx": 1,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "red",
+      "dx": 1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "red",
+      "dx": -1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "red",
+      "dx": -1,
+      "dz": -1,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 3,
+    "id": "minecraft:blaze_rod"
+  },
+  "result_mob_count": 1
+}

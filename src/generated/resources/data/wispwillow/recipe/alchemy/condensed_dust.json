@@ -1,0 +1,19 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_input": {
+    "amount": 1000,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "fluxia": 3000,
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "wispwillow:fluxia_converter_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:fluxia_condensed_dust"
+  },
+  "ticks": 240
+}

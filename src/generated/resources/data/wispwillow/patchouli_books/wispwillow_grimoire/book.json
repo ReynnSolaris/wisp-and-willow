@@ -1,0 +1,22 @@
+{
+  "book_texture": "patchouli:textures/gui/book_purple.png",
+  "creative_tab": "minecraft:tools_and_utilities",
+  "dont_generate_book": false,
+  "header_color": "D69BFF",
+  "i18n": false,
+  "landing_text": "A willow's whisper, a wisp's lantern, and the quiet pull of Fluxia.$(br2)This grimoire records the rites, tools and sigils of the Wisp & Willow tradition — what each thing costs, what it gives back, and how to draw the circle so the altar will actually answer.",
+  "link_color": "7FE8FF",
+  "link_hover_color": "BFF3FF",
+  "model": "patchouli:book_purple",
+  "name": "Wisp & Willow Grimoire",
+  "nameplate_color": "B46AFF",
+  "pause_game": false,
+  "progress_bar_background": "2A1B3D",
+  "progress_bar_color": "7FE8FF",
+  "show_progress": true,
+  "subtitle": "Rites, Sigils & Currents",
+  "text_color": "B28BFF",
+  "text_shadow": true,
+  "use_resource_pack": true,
+  "version": 2
+}

@@ -1,0 +1,43 @@
+{
+  "type": "wispwillow:bog_pool",
+  "config": {
+    "bed": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:moss_block"
+      }
+    },
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    },
+    "plant_chance": 0.35,
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 4,
+      "min_inclusive": 2
+    },
+    "shore_plant": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:short_grass"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:fern"
+          },
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

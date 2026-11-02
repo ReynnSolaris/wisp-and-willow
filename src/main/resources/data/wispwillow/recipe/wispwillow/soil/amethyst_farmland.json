@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "wispwillow:amethyst_farmland"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_soil",
+  "block": "wispwillow:amethyst_farmland",
+  "growth_modifier": 2.5
+}

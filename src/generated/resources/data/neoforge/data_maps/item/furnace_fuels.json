@@ -1,0 +1,16 @@
+{
+  "values": {
+    "wispwillow:amethyst_coal": {
+      "burn_time": 3200
+    },
+    "wispwillow:amethyst_coal_block": {
+      "burn_time": 32000
+    },
+    "wispwillow:peat": {
+      "burn_time": 800
+    },
+    "wispwillow:peat_bricks": {
+      "burn_time": 1600
+    }
+  }
+}

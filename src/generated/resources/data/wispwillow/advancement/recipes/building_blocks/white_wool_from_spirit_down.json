@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spirit_down": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:spirit_down"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:white_wool_from_spirit_down"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_spirit_down"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:white_wool_from_spirit_down"
+    ]
+  }
+}

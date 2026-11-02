@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "e": {
+      "item": "wispwillow:empyrite_ingot"
+    },
+    "i": {
+      "item": "wispwillow:astralite_ingot"
+    }
+  },
+  "pattern": [
+    "eee",
+    " i ",
+    " i "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:empyrite_pickaxe"
+  }
+}

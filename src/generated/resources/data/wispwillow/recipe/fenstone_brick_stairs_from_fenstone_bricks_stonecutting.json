@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wispwillow:fenstone_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "wispwillow:fenstone_brick_stairs"
+  }
+}

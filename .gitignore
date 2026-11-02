@@ -1,0 +1,12 @@
+build/
+.gradle/
+run/
+.idea/
+_backup/
+__pycache__/
+New Models/
+src/main/resources/assets/
+src/main/resources/wispwillowlogo.png
+src/generated/resources/assets/
+src/generated/resources/.cache/
+tools/

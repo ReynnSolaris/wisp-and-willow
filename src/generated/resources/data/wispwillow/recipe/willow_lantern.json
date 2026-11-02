@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "n": {
+      "item": "minecraft:iron_nugget"
+    },
+    "o": {
+      "item": "wispwillow:willow_torch"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "non",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:willow_lantern"
+  }
+}

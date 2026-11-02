@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "wispwillow:glimmerbloom"
+                },
+                "weight": 5
+              },
+              {
+                "data": {
+                  "Name": "wispwillow:moonlily"
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "minecraft:fern"
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "wispwillow:duskbloom"
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 40,
+    "xz_spread": 8,
+    "y_spread": 3
+  }
+}

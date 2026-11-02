@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "wispwillow:willow_sapling",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "wispwillow:tree_drops/wispwillow/willow_tree"
+    }
+  ]
+}

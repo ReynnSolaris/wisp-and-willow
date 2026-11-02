@@ -1,0 +1,37 @@
+{
+  "parent": "wispwillow:root",
+  "criteria": {
+    "pickup_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:willow_sapling"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.first_steps.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:willow_sapling"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.first_steps.title"
+    }
+  },
+  "requirements": [
+    [
+      "pickup_sapling"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

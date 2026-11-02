@@ -1,0 +1,6 @@
+{
+  "type": "wispwillow:gateway",
+  "id": "wispwillow:gateway/bat",
+  "soul": "minecraft:bat",
+  "summons": "wispwillow:bat_familiar"
+}

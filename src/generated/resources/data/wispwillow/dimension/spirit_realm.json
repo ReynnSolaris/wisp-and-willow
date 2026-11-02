@@ -1,0 +1,14 @@
+{
+  "type": "wispwillow:spirit_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "wispwillow:spirit",
+      "barrens": "wispwillow:hollow_barrens",
+      "grove": "wispwillow:soulwood_grove",
+      "meadow": "wispwillow:spirit_meadow",
+      "shallows": "wispwillow:mistfall_shallows"
+    },
+    "settings": "wispwillow:spirit_realm"
+  }
+}

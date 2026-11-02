@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "wispwillow:astralite_ingot"
+    },
+    "c": {
+      "item": "wispwillow:amethyst_coal"
+    },
+    "f": {
+      "item": "wispwillow:fluxite"
+    },
+    "n": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "fff",
+    "cnc",
+    "faf"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:fluxia_dynamo"
+  }
+}

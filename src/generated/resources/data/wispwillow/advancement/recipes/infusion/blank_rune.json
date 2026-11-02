@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fluxite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:fluxite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:infusion/blank_rune"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fluxite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:infusion/blank_rune"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "wispwillow:infusion",
+  "fluxia": 12000,
+  "id": "wispwillow:infusion/greater_tablet",
+  "inputs": [
+    {
+      "item": "wispwillow:fluxia_tablet"
+    },
+    {
+      "item": "wispwillow:astralite_ingot"
+    },
+    {
+      "item": "wispwillow:astralite_ingot"
+    },
+    {
+      "item": "wispwillow:astralite_ingot"
+    },
+    {
+      "item": "wispwillow:astralite_ingot"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:greater_fluxia_tablet"
+  }
+}

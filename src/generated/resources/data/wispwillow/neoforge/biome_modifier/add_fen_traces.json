@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wispwillow:has_fen_traces",
+  "features": [
+    "wispwillow:whisperreed_patch",
+    "wispwillow:moonlily_patch"
+  ],
+  "step": "vegetal_decoration"
+}

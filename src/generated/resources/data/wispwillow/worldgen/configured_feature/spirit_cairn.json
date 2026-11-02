@@ -1,0 +1,45 @@
+{
+  "type": "wispwillow:spirit_ruin",
+  "config": {
+    "accent": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:moss_block"
+      }
+    },
+    "broken_chance": 0.35,
+    "crown": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:glimmerbloom"
+      }
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 5,
+      "min_inclusive": 3
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 4,
+      "min_inclusive": 3
+    },
+    "stone": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "wispwillow:spiritstone_bricks"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "wispwillow:spiritstone"
+          },
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

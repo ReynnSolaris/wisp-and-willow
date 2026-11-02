@@ -1,0 +1,34 @@
+{
+  "parent": "wispwillow:tablet",
+  "criteria": {
+    "unmoored": {
+      "conditions": {
+        "effects": {
+          "wispwillow:phasing": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.phasing.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:fluxia_fluid_bucket"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.phasing.title"
+    }
+  },
+  "requirements": [
+    [
+      "unmoored"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

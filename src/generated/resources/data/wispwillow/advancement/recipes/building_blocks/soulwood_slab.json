@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soulwood_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:soulwood_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:soulwood_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soulwood_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:soulwood_slab"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1931704711,
+    "separation": 20,
+    "spacing": 64
+  },
+  "structures": [
+    {
+      "structure": "wispwillow:fluxia_oasis",
+      "weight": 1
+    }
+  ]
+}

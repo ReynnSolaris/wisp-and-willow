@@ -1,0 +1,166 @@
+{
+  "type": "wispwillow:ritual",
+  "awakens": "wispwillow:empyrite",
+  "fluxia_required": 2500,
+  "grid": "9x9",
+  "id": "wispwillow:ritual/awakening_empyrite",
+  "inputs": [
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "min_tier": 4,
+  "pattern": [
+    {
+      "type": "star",
+      "color": "yellow",
+      "dx": 0,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "yellow",
+      "dx": 4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "yellow",
+      "dx": 0,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "star",
+      "color": "yellow",
+      "dx": -4,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": 4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": 4,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "orange",
+      "dx": -4,
+      "dz": -4,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "yellow",
+      "dx": 0,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "yellow",
+      "dx": 2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "yellow",
+      "dx": 0,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "runes",
+      "color": "yellow",
+      "dx": -2,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": 2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": 2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": -2,
+      "dz": 2,
+      "required": true
+    },
+    {
+      "type": "base",
+      "color": "orange",
+      "dx": -2,
+      "dz": -2,
+      "required": true
+    },
+    {
+      "dx": 0,
+      "dz": -1,
+      "required": false
+    },
+    {
+      "dx": 1,
+      "dz": 0,
+      "required": false
+    },
+    {
+      "dx": 0,
+      "dz": 1,
+      "required": false
+    },
+    {
+      "dx": -1,
+      "dz": 0,
+      "required": false
+    }
+  ],
+  "result_mob_count": 1
+}

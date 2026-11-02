@@ -1,0 +1,51 @@
+{
+  "carvers": {},
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 13159644,
+    "foliage_color": 10935000,
+    "grass_color": 11844808,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.003
+    },
+    "sky_color": 10135256,
+    "water_color": 9426156,
+    "water_fog_color": 6198980
+  },
+  "features": [
+    [],
+    [],
+    [
+      "wispwillow:spirit_floor_sparse"
+    ],
+    [],
+    [
+      "wispwillow:spirit_cairn",
+      "wispwillow:spirit_hall",
+      "wispwillow:spirit_spire"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "wispwillow:wispfly",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 6
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.4
+}

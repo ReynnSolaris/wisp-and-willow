@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bogbell": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:bogbell"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wispwillow:blue_dye_from_bogbell"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bogbell"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wispwillow:blue_dye_from_bogbell"
+    ]
+  }
+}

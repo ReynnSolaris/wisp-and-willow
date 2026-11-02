@@ -1,0 +1,96 @@
+{
+  "type": "wispwillow:ritual",
+  "fluxia_required": 150,
+  "grid": "3x3",
+  "id": "wispwillow:ritual/magicka_solidificus",
+  "inputs": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "min_tier": 2,
+  "pattern": [
+    {
+      "type": "serpent",
+      "color": "yellow",
+      "dx": 0,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "yellow",
+      "dx": 1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "yellow",
+      "dx": 0,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "serpent",
+      "color": "yellow",
+      "dx": -1,
+      "dz": 0,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "blue",
+      "dx": 1,
+      "dz": -1,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "blue",
+      "dx": 1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "blue",
+      "dx": -1,
+      "dz": 1,
+      "required": true
+    },
+    {
+      "type": "triad",
+      "color": "blue",
+      "dx": -1,
+      "dz": -1,
+      "required": true
+    }
+  ],
+  "result_item": {
+    "count": 24,
+    "id": "wispwillow:fluxite"
+  },
+  "result_mob_count": 1
+}

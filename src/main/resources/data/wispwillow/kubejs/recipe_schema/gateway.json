@@ -1,0 +1,66 @@
+{
+  "keys": [
+    {
+      "name": "soul",
+      "role": "input",
+      "type": {
+        "type": "registry_element",
+        "registry": "minecraft:entity_type"
+      }
+    },
+    {
+      "name": "summons",
+      "role": "output",
+      "type": {
+        "type": "registry_element",
+        "registry": "minecraft:entity_type"
+      },
+      "alternative_names": [
+        "familiar"
+      ],
+      "default_optional": true
+    },
+    {
+      "name": "results",
+      "role": "output",
+      "type": {
+        "type": "list",
+        "component": "item_stack"
+      },
+      "default_optional": true
+    },
+    {
+      "name": "count",
+      "type": "positive_int",
+      "optional": 1
+    },
+    {
+      "name": "fluxia",
+      "type": "non_negative_int",
+      "optional": 25000
+    }
+  ],
+  "constructors": [
+    {
+      "keys": [
+        "soul"
+      ]
+    },
+    {
+      "keys": [
+        "soul",
+        "summons"
+      ]
+    },
+    {
+      "keys": [
+        "soul",
+        "summons",
+        "fluxia"
+      ]
+    }
+  ],
+  "unique": [
+    "soul"
+  ]
+}

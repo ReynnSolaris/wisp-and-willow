@@ -1,0 +1,37 @@
+{
+  "parent": "wispwillow:tablet",
+  "criteria": {
+    "has_cauldron": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wispwillow:alchemical_cauldron"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.cauldron.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:alchemical_cauldron"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.cauldron.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_cauldron"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

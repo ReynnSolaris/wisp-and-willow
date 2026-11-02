@@ -1,0 +1,32 @@
+{
+  "parent": "wispwillow:awakening",
+  "criteria": {
+    "rite": {
+      "conditions": {
+        "milestone": "imbued"
+      },
+      "trigger": "wispwillow:milestone"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.wispwillow.imbuing.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "wispwillow:empyrite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.wispwillow.imbuing.title"
+    }
+  },
+  "requirements": [
+    [
+      "rite"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,47 @@
+{
+  "type": "wispwillow:bog_pool",
+  "config": {
+    "bed": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "wispwillow:peat"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:mud"
+          },
+          "weight": 2
+        }
+      ]
+    },
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:bog_water",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    },
+    "plant_chance": 0.3,
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 4,
+      "min_inclusive": 2
+    },
+    "shore_plant": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "wispwillow:whisperreed",
+        "Properties": {
+          "half": "lower",
+          "waterlogged": "false"
+        }
+      }
+    }
+  }
+}

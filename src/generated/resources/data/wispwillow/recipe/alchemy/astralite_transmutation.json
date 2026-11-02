@@ -1,0 +1,23 @@
+{
+  "type": "wispwillow:alchemy",
+  "fluid_input": {
+    "amount": 2000,
+    "id": "wispwillow:fluxia_fluid"
+  },
+  "fluxia": 8000,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "wispwillow:fluxia_condensed_dust"
+    },
+    {
+      "count": 4,
+      "item": "wispwillow:fluxite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wispwillow:astralite_block"
+  },
+  "ticks": 400
+}
